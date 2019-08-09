@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		AEBEDB1122F9A7EA000D7FE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDB1022F9A7EA000D7FE3 /* AppDelegate.swift */; };
-		AEBEDB1322F9A7EA000D7FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBEDB1222F9A7EA000D7FE3 /* ViewController.swift */; };
 		AEBEDB1622F9A7EA000D7FE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBEDB1422F9A7EA000D7FE3 /* Main.storyboard */; };
 		AEBEDB1822F9A7F1000D7FE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBEDB1722F9A7F1000D7FE3 /* Assets.xcassets */; };
 		AEBEDB1B22F9A7F1000D7FE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBEDB1922F9A7F1000D7FE3 /* LaunchScreen.storyboard */; };
+		AEC8DF1722FC37E4002D059B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8DF1622FC37E4002D059B /* FeedViewController.swift */; };
+		AEC8DF1B22FC43F8002D059B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8DF1A22FC43F8002D059B /* PhotoViewController.swift */; };
+		AEFECA4422FD8C240000989D /* FeedHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFECA4322FD8C240000989D /* FeedHeaderCell.swift */; };
+		AEFECA4622FD93910000989D /* FeedCategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFECA4522FD93910000989D /* FeedCategoriesCell.swift */; };
+		AEFECA4822FD95E60000989D /* FeedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFECA4722FD95E60000989D /* FeedHeaderView.swift */; };
+		AEFECA4A22FD96380000989D /* FeedHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEFECA4922FD96380000989D /* FeedHeaderView.xib */; };
+		AEFECA4C22FD9ADF0000989D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFECA4B22FD9ADF0000989D /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AEBEDB0D22F9A7EA000D7FE3 /* IOSSummerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSSummerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBEDB1022F9A7EA000D7FE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEBEDB1222F9A7EA000D7FE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEBEDB1522F9A7EA000D7FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEBEDB1722F9A7F1000D7FE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBEDB1A22F9A7F1000D7FE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBEDB1C22F9A7F1000D7FE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC8DF1622FC37E4002D059B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		AEC8DF1A22FC43F8002D059B /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		AEFECA4322FD8C240000989D /* FeedHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedHeaderCell.swift; sourceTree = "<group>"; };
+		AEFECA4522FD93910000989D /* FeedCategoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCategoriesCell.swift; sourceTree = "<group>"; };
+		AEFECA4722FD95E60000989D /* FeedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedHeaderView.swift; sourceTree = "<group>"; };
+		AEFECA4922FD96380000989D /* FeedHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedHeaderView.xib; sourceTree = "<group>"; };
+		AEFECA4B22FD9ADF0000989D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,60 @@
 		AEBEDB0F22F9A7EA000D7FE3 /* IOSSummerProject */ = {
 			isa = PBXGroup;
 			children = (
-				AEBEDB1022F9A7EA000D7FE3 /* AppDelegate.swift */,
-				AEBEDB1222F9A7EA000D7FE3 /* ViewController.swift */,
-				AEBEDB1422F9A7EA000D7FE3 /* Main.storyboard */,
-				AEBEDB1722F9A7F1000D7FE3 /* Assets.xcassets */,
-				AEBEDB1922F9A7F1000D7FE3 /* LaunchScreen.storyboard */,
-				AEBEDB1C22F9A7F1000D7FE3 /* Info.plist */,
+				AEC8DF1522FC3704002D059B /* Screens */,
+				AEC8DF1422FC36F5002D059B /* Resources */,
+				AEC8DF1322FC36C0002D059B /* Application */,
 			);
 			path = IOSSummerProject;
+			sourceTree = "<group>";
+		};
+		AEC8DF1322FC36C0002D059B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AEBEDB1022F9A7EA000D7FE3 /* AppDelegate.swift */,
+				AEBEDB1C22F9A7F1000D7FE3 /* Info.plist */,
+				AEBEDB1922F9A7F1000D7FE3 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AEC8DF1422FC36F5002D059B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEBEDB1722F9A7F1000D7FE3 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AEC8DF1522FC3704002D059B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AEFECA4122FD8B9F0000989D /* FeedViewContriller */,
+				AEBEDB1422F9A7EA000D7FE3 /* Main.storyboard */,
+				AEC8DF1A22FC43F8002D059B /* PhotoViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AEFECA4122FD8B9F0000989D /* FeedViewContriller */ = {
+			isa = PBXGroup;
+			children = (
+				AEFECA4222FD8BE70000989D /* Cells */,
+				AEC8DF1622FC37E4002D059B /* FeedViewController.swift */,
+			);
+			path = FeedViewContriller;
+			sourceTree = "<group>";
+		};
+		AEFECA4222FD8BE70000989D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AEFECA4322FD8C240000989D /* FeedHeaderCell.swift */,
+				AEFECA4522FD93910000989D /* FeedCategoriesCell.swift */,
+				AEFECA4722FD95E60000989D /* FeedHeaderView.swift */,
+				AEFECA4922FD96380000989D /* FeedHeaderView.xib */,
+				AEFECA4B22FD9ADF0000989D /* CategoryCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +183,7 @@
 				AEBEDB1B22F9A7F1000D7FE3 /* LaunchScreen.storyboard in Resources */,
 				AEBEDB1822F9A7F1000D7FE3 /* Assets.xcassets in Resources */,
 				AEBEDB1622F9A7EA000D7FE3 /* Main.storyboard in Resources */,
+				AEFECA4A22FD96380000989D /* FeedHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +194,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBEDB1322F9A7EA000D7FE3 /* ViewController.swift in Sources */,
+				AEFECA4622FD93910000989D /* FeedCategoriesCell.swift in Sources */,
+				AEFECA4822FD95E60000989D /* FeedHeaderView.swift in Sources */,
+				AEFECA4422FD8C240000989D /* FeedHeaderCell.swift in Sources */,
+				AEFECA4C22FD9ADF0000989D /* CategoryCell.swift in Sources */,
+				AEC8DF1722FC37E4002D059B /* FeedViewController.swift in Sources */,
+				AEC8DF1B22FC43F8002D059B /* PhotoViewController.swift in Sources */,
 				AEBEDB1122F9A7EA000D7FE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSSummerProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IOSSummerProject/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSSummerProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IOSSummerProject/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
